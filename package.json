@@ -1,0 +1,30 @@
+{
+	"name": "speaker-title",
+	"version": "0.1.0",
+	"description": "Show a title and speaker by line for talks",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": ["nodecg", "techlahoma"],
+	"author": "Blixa Morgan",
+	"license": "MIT",
+
+	"nodecg": {
+		"compatibleRange": "~0.8.9",
+		"dashboardPanels": [
+			{
+				"name": "speaker-title",
+				"title": "Talk Details",
+        "width": 3,
+				"file": "index.html"
+			}
+		],
+    "graphics": [
+      {
+        "file": "speaker.html",
+        "width": 350,
+        "height": 50
+      }
+    ]
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "speaker-title",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "nodecg-replicant": "NodeCGElements/nodecg-replicant#^0.5.8",
+    "nodecg-replicant-input": "NodeCGElements/nodecg-replicant-input#~0.3.1",
+    "paper-input": "PolymerElements/paper-input#^1.1.11"
+  }
+}
